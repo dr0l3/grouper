@@ -15,7 +15,6 @@ The application is build using
 
 The application uses the [sbt-web-scalajs](https://github.com/vmunier/sbt-web-scalajs) sbt plugin and the [scalajs-scripts](https://github.com/vmunier/scalajs-scripts) library.
 
-
 ## Other
 
-The setup is heavily inspired by [akka-http-with-scalajs-example](https://github.com/vmunier/akka-http-with-scalajs-example). 
+The setup is heavily inspired by [akka-http-with-scalajs-example](https://github.com/vmunier/akka-http-with-scalajs-example) and [scalajs-spa-tutorial](https://github.com/ochrons/scalajs-spa-tutorial). 
