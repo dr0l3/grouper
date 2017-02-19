@@ -47,5 +47,5 @@ lazy val server: Project = (project in file ("server"))
   .enablePlugins(SbtWeb, JavaAppPackaging)
 
 //Revolver.settings
-
+Revolver.enableDebugging(port = 5050, suspend = false)
 onLoad in Global := (Command.process("project server", _: State)) compose (onLoad in Global).value
